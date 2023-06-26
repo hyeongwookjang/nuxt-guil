@@ -6,9 +6,8 @@
         <nuxt-link to="/events">Events</nuxt-link>
       </li>
     </ul> -->
-    <!-- <Header /> -->
+    <Header />
     <NuxtLayout>
-      <!-- <Header /> -->
       <NuxtPage />
     </NuxtLayout>
   </div>

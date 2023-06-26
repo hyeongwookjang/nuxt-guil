@@ -11,6 +11,9 @@ console.log(nuxtApp)
 const route = useRoute()
 console.log(route)
 
+const nuxtApp = useNuxtApp()
+console.log(nuxtApp)
+
 </script>
 
 <style lang="scss" scoped>

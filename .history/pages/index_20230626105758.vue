@@ -3,9 +3,7 @@
         <!-- <Alert/>
         <Profile/>
         <ProfileHeader/> -->
-        
         <h1>Main page</h1>
-        <img src="~/assets/img/nuxt.png" alt="" width="200px" height="200px">
     </div>
 </template>
 

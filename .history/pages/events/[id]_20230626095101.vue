@@ -5,11 +5,8 @@
 </template>
 
 <script setup>
-const nuxtApp = useNuxtApp()
-console.log(nuxtApp)
-
-const route = useRoute()
-console.log(route)
+const nuxt = useNuxtApp()
+console.log(nuxt)
 
 </script>
 

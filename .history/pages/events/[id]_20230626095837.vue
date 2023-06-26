@@ -5,11 +5,13 @@
 </template>
 
 <script setup>
-const nuxtApp = useNuxtApp()
-console.log(nuxtApp)
+const nuxt = useNuxtApp()
+console.log(nuxt)
 
 const route = useRoute()
 console.log(route)
+
+const nuxtApp = useNuxtApp()
 
 </script>
 

@@ -6,10 +6,13 @@
 
 <script setup>
 const nuxtApp = useNuxtApp()
-console.log(nuxtApp)
+console.log(nuxt)
 
 const route = useRoute()
 console.log(route)
+
+const nuxtApp = useNuxtApp()
+console.log(nuxtApp)
 
 </script>
 
