@@ -1,12 +1,15 @@
 <template>
     <div class="Main">
+
         <h1>Main page</h1>
         <div>
         <!-- <Alert/>
         <Profile/>
         <ProfileHeader/> -->
         <!-- <ContentDoc /> -->
+        
         </div>
+
         <div>
         <!-- 이미지 넣는 방식 -->
         <!-- <IconsBell/> -->
@@ -15,23 +18,15 @@
         <!-- <img src="1.jpg" alt=""/> -->
         <!-- <img src="~/assets/icons/22.svg" alt=""/> -->
         </div>
-        <div>
-            Counter: {{ counter }}
-            <button @click="counter++">+</button>
-            <button @click="counter--">-</button>
-        </div>
+
+        
+
+
+        
     </div>
 </template>
 
-<script setup>
-
-const response = await $fetch('api/hello')
-console.log(response)
-/* 피니아 설정
- * import { useCounterStore } from "~/stores/myStore";
- * const store = useCounterStore();
- */
-
+<script setup lang="ts">
 
 // definePageMeta({
 //   middleware: 'auth',
@@ -48,8 +43,6 @@ console.log(response)
 
 // console.log(useNuxtApp());
 
-// const counter = useState("counter", () => Math.round(Math.random() * 100));
-const counter = useCounter();
 
 
 </script>

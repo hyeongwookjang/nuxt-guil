@@ -16,22 +16,16 @@
         <!-- <img src="~/assets/icons/22.svg" alt=""/> -->
         </div>
         <div>
-            Counter: {{ counter }}
+            <!-- Counter: {{ counter }}
             <button @click="counter++">+</button>
-            <button @click="counter--">-</button>
+            <button @click="counter--">-</button> -->
         </div>
+        <Counter/>
     </div>
 </template>
 
 <script setup>
-
-const response = await $fetch('api/hello')
-console.log(response)
-/* 피니아 설정
- * import { useCounterStore } from "~/stores/myStore";
- * const store = useCounterStore();
- */
-
+import { useCounterStore } from "~/stores/myStore";
 
 // definePageMeta({
 //   middleware: 'auth',
@@ -49,8 +43,12 @@ console.log(response)
 // console.log(useNuxtApp());
 
 // const counter = useState("counter", () => Math.round(Math.random() * 100));
-const counter = useCounter();
+// const counter = useCounter();
+/*app.config.productionTip = false*/
 
+const store = useCounterStore();
+
+console.log(store);
 
 </script>
 

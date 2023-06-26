@@ -24,9 +24,6 @@
 </template>
 
 <script setup>
-
-const response = await $fetch('api/hello')
-console.log(response)
 /* 피니아 설정
  * import { useCounterStore } from "~/stores/myStore";
  * const store = useCounterStore();
@@ -48,8 +45,8 @@ console.log(response)
 
 // console.log(useNuxtApp());
 
-// const counter = useState("counter", () => Math.round(Math.random() * 100));
-const counter = useCounter();
+const counter = useState("counter", () => Math.round(Math.random() * 100));
+// const counter = useCounter();
 
 
 </script>

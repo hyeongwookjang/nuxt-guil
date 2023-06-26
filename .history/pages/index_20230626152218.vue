@@ -20,19 +20,11 @@
             <button @click="counter++">+</button>
             <button @click="counter--">-</button>
         </div>
+        <Counter/>
     </div>
 </template>
 
-<script setup>
-
-const response = await $fetch('api/hello')
-console.log(response)
-/* 피니아 설정
- * import { useCounterStore } from "~/stores/myStore";
- * const store = useCounterStore();
- */
-
-
+<script setup lang="ts">
 // definePageMeta({
 //   middleware: 'auth',
 // })
@@ -50,7 +42,6 @@ console.log(response)
 
 // const counter = useState("counter", () => Math.round(Math.random() * 100));
 const counter = useCounter();
-
 
 </script>
 

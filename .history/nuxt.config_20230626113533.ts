@@ -6,11 +6,6 @@ export default defineNuxtConfig({
     // assets: "/<rootDir>/assets"
     // "@": resolve(__dirname, "/")
   },
-  modules: [
-    '@vueuse/nuxt',
-    '@nuxt/content',
-    '@nuxtjs/i18n',
-  ],
   css: [
     "~/assets/css/main.scss"
   ],

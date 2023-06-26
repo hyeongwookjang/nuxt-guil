@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxt/content',
     '@nuxtjs/i18n',
+    '@pinia/nuxt',
   ],
   css: [
     "~/assets/css/main.scss"
