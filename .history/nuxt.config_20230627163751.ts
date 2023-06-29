@@ -28,8 +28,6 @@ export default defineNuxtConfig({
   css: [
     "~/assets/css/main.scss"
   ],
-  extensions:[".graphql", ".gql"]
-  ,
   postcss: {
     plugins: {
       tailwindcss: {},

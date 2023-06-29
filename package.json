@@ -23,6 +23,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "@doubco/countries": "^1.2.0",
     "@pinia/nuxt": "^0.4.11",
     "pinia": "^2.1.4",
     "scss": "^0.2.4",

@@ -1,0 +1,30 @@
+{
+    "producs": [
+        {
+            "bdSeq": 30,
+            "bdTitle": "테스트용 게시글",
+            "bdContents": "테스트용 게시글",
+            "bdRegDt": "2023-06-15 16:39",
+            "boardComments": [
+                {
+                    "bdcSeq": 21,
+                    "bdSeq": 30,
+                    "bdcContents": "댓글 추가",
+                    "bdcRegDt": "2023-06-16 11:42"
+                },
+                {
+                    "bdcSeq": 22,
+                    "bdSeq": 30,
+                    "bdcContents": "수정정",
+                    "bdcRegDt": "2023-06-16 11:56"
+                },
+                {
+                    "bdcSeq": 28,
+                    "bdSeq": 30,
+                    "bdcContents": "123",
+                    "bdcRegDt": "2023-06-16 16:40"
+                }
+            ]
+        }
+    ]
+}

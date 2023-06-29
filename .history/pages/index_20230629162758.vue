@@ -1,7 +1,7 @@
 <template>
-    <div>
-        event index page
-    </div>
+  <div>
+
+  </div>
 </template>
 
 <script setup>

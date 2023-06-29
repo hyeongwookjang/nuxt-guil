@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+        "bdSeq": "29",
+        "bdTitle": "title",
+        "bdRegDt": "2023-06-15 16:38:59.0",
+        "commentCount": "0"
+    },
+    {
+        "bdSeq": "30",
+        "bdTitle": "테스트용 게시글",
+        "bdRegDt": "2023-06-15 16:39:28.0",
+        "commentCount": "3"
+    },
+    {
+        "bdSeq": "34",
+        "bdTitle": "123",
+        "bdRegDt": "2023-06-16 11:11:47.0",
+        "commentCount": "0"
+    },
+    {
+        "bdSeq": "35",
+        "bdTitle": "제목",
+        "bdRegDt": "2023-06-20 11:57:40.0",
+        "commentCount": "0"
+    },
+    {
+        "bdSeq": "36",
+        "bdTitle": "11",
+        "bdRegDt": "2023-06-20 11:58:00.0",
+        "commentCount": "0"
+    },
+    {
+        "bdSeq": "37",
+        "bdTitle": "제목",
+        "bdRegDt": "2023-06-20 11:59:08.0",
+        "commentCount": "0"
+    }
+  ]
+}
+ 

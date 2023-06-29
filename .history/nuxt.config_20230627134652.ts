@@ -2,20 +2,6 @@ import { resolve } from "path";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  app : {
-
-    head: {
-      charset: 'utf-8',
-      viewport: 'width=device-width, initial-scale=1',
-      title: 'Nuxt course on Youtube',
-      meta: [
-        { name: 'description', 
-          content: 'My amazing site.' }
-      ],
-      
-    }
-
-  },
   alias: {
     // assets: "/<rootDir>/assets"
     // "@": resolve(__dirname, "/")
@@ -28,13 +14,12 @@ export default defineNuxtConfig({
   css: [
     "~/assets/css/main.scss"
   ],
-  extensions:[".graphql", ".gql"]
-  ,
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
+    
   },
   ssr: false,
 

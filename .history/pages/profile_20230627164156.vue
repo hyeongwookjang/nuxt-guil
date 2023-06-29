@@ -6,6 +6,10 @@
 
 <script setup>
 
+useHead({
+  title: "profile page"
+})
+
 // const sayHello = () => console.log("goodbye");
 // sayHello();
 
